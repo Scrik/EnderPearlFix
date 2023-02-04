@@ -1,0 +1,3 @@
+name: EnderPearlFix
+version: '${project.version}'
+main: f3f5.enderpearlfix.EnderPearlFix
