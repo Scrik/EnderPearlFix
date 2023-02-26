@@ -33,11 +33,7 @@ public class BlockCheck
     }
     public boolean isSolid(Block block)
     {
-        int type = block.getType().getId();
-        if (type == 355) {
-          return true;
-        } else {
-          return false;
+    return block.getType().getId() == 355
         }
     }
     private boolean isSlab(Block block) { return block.getType().getId() == 44 || block.getType().getId() == 126 || block.getType().getId() == 182; }
